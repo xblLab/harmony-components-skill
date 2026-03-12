@@ -23,6 +23,35 @@ if [[ ! -f "${INSTALL_JSON}" ]]; then
     exit 1
 fi
 
+# Read install_method from install.json; if ohpm, run ohpm install and exit
+INSTALL_METHOD=$(node -e "
+const fs = require('fs');
+const j = JSON.parse(fs.readFileSync('${INSTALL_JSON}', 'utf8'));
+console.log(j.install_method || 'oss');
+" 2>/dev/null || echo "oss")
+
+if [[ "${INSTALL_METHOD}" == "ohpm" ]]; then
+    OHPM_PACKAGE=$(node -e "
+const fs = require('fs');
+const j = JSON.parse(fs.readFileSync('${INSTALL_JSON}', 'utf8'));
+console.log(j.ohpm_package || '');
+" 2>/dev/null || echo "")
+    if [[ -z "${OHPM_PACKAGE}" ]]; then
+        echo "Error: ohpm_package not found in install.json for ohpm component"
+        exit 1
+    fi
+    if [[ ! -f "${PROJECT_ROOT}/oh-package.json5" ]]; then
+        echo "Error: oh-package.json5 not found in ${PROJECT_ROOT}"
+        echo "Please run this script from your HarmonyOS project root directory."
+        exit 1
+    fi
+    echo "Installing ${COMPONENT_ID} via ohpm..."
+    (cd "${PROJECT_ROOT}" && ohpm install "${OHPM_PACKAGE}")
+    echo ""
+    echo "Component installed successfully via ohpm!"
+    exit 0
+fi
+
 # Read oss_url and zip_name from install.json (using node for JSON parsing)
 OSS_URL=$(node -e "
 const fs = require('fs');

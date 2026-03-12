@@ -3,5 +3,90 @@
     "id": "travel_map",
     "name": "地图（定位选点）组件",
     "summary": "本组件提供地图展示能力，并支持地图定位和选点定制功能。"
+  },
+  {
+    "id": "mcui_mccharts",
+    "name": "莓创图表UI组件库",
+    "summary": "莓创图表是一款专为HarmonyOS NEXT打造的高性能、轻量级图表组件库，深度融合Harmony"
+  },
+  {
+    "id": "aggregated_login",
+    "name": "通用登录组件",
+    "summary": "本组件提供了华为账号一键登录及其他方式登录（微信、手机号登录），开发者可以根据业务需要快速实现应用登"
+  },
+  {
+    "id": "check_app_update",
+    "name": "检测应用更新组件",
+    "summary": "本组件提供了检测应用是否存在新版本功能。"
+  },
+  {
+    "id": "module_login",
+    "name": "登录组件",
+    "summary": "本组件提供了快速接入华为一键登录的能力，支持隐私政策、用户协议的自定义跳转处理逻辑，仅需简单配置即可"
+  },
+  {
+    "id": "base_calendar",
+    "name": "多功能日历组件",
+    "summary": "本组件提供了展示当前日期日历、自定义选中颜色、选中图标形状、周首日、是否展示休息日、是否展示农历、是"
+  },
+  {
+    "id": "feed_back",
+    "name": "意见反馈组件",
+    "summary": "本组件提供了通用的自定义的意见反馈功能，数据有问题描述、多张问题截图、联系电话号码、提交时间，四种数"
+  },
+  {
+    "id": "city_select",
+    "name": "通用城市选择组件",
+    "summary": "本组件提供选择城市的功能，长按城市按钮将显示城市全称。"
+  },
+  {
+    "id": "feedback",
+    "name": "通用问题反馈组件",
+    "summary": "本组件提供了通用的问题反馈功能。"
+  },
+  {
+    "id": "aggregated_payment",
+    "name": "通用支付组件",
+    "summary": "本组件聚合了多方的支付能力。提供开箱即用的 收银台选择器 (CashierPicker) 以及封装完"
+  },
+  {
+    "id": "collect_personal_info",
+    "name": "通用个人信息组件",
+    "summary": "本组件支持编辑头像、昵称、姓名、性别、手机号、生日、个人简介等。"
+  },
+  {
+    "id": "luvi_lv-markdown-in",
+    "name": "Markdown组件",
+    "summary": "一款专为 HarmonyOS 设计的平台定制化 Markdown 渲染组件，让 Markdown 内"
+  },
+  {
+    "id": "module_share",
+    "name": "分享组件",
+    "summary": "本组件支持微信、朋友圈、qq、生成海报、系统分享等分享功能。"
+  },
+  {
+    "id": "abner_search",
+    "name": "搜索组件search",
+    "summary": "search是一个搜索页面组件，使用它可以很快速的实现一个带有历史搜索和热门搜索的搜索页面，通过属性"
+  },
+  {
+    "id": "richeditor",
+    "name": "富文本编辑组件",
+    "summary": "本组件提供了富文本编辑，保存，回显，分享功能。"
+  },
+  {
+    "id": "app_setting",
+    "name": "通用应用内设置组件",
+    "summary": "本组件支持设置开关切换、下拉选择、页面跳转、文本刷新等基础设置项，同时包含深色模式、检测版本、字体大"
+  },
+  {
+    "id": "hw-agconnect_ui-calendar-picker",
+    "name": "日历选择器 UICalendarPicker",
+    "summary": "UICalendarPicker，是一个基于open harmony基础组件开发的日历选择器组件，包"
+  },
+  {
+    "id": "category_list",
+    "name": "通用分类列表组件",
+    "summary": "本组件提供了以宫格或者列表形式分类展示信息的功能。"
   }
 ]
