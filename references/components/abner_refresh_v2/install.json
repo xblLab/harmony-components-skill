@@ -1,0 +1,4 @@
+{
+  "install_method": "ohpm",
+  "ohpm_package": "@abner/refresh_v2"
+}

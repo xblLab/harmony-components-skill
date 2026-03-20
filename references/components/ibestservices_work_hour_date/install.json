@@ -1,0 +1,4 @@
+{
+  "install_method": "ohpm",
+  "ohpm_package": "@ibestservices/work_hour_date"
+}

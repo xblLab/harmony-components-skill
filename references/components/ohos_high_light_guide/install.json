@@ -1,0 +1,4 @@
+{
+  "install_method": "ohpm",
+  "ohpm_package": "@ohos/high_light_guide"
+}

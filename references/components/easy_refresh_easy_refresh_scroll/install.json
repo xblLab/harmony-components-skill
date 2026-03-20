@@ -1,0 +1,4 @@
+{
+  "install_method": "ohpm",
+  "ohpm_package": "@easy_refresh/easy_refresh_scroll"
+}

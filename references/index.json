@@ -11,8 +11,8 @@
   },
   {
     "id": "aggregated_login",
-    "name": "通用登录组件",
-    "summary": "本组件提供了华为账号一键登录及其他方式登录（微信、手机号登录），开发者可以根据业务需要快速实现应用登"
+    "name": "华为账号登录组件",
+    "summary": "本组件提供了华为账号一键登录及微信一键登录的能力，开发者可以根据业务需要快速实现应用登录。"
   },
   {
     "id": "check_app_update",
@@ -46,8 +46,8 @@
   },
   {
     "id": "aggregated_payment",
-    "name": "通用支付组件",
-    "summary": "本组件聚合了多方的支付能力。提供开箱即用的 收银台选择器 (CashierPicker) 以及封装完"
+    "name": "简易支付组件",
+    "summary": "本组件支持选择华为支付拉起收银台、微信支付拉起微信、支付宝支付拉起支付宝。"
   },
   {
     "id": "collect_personal_info",
@@ -88,5 +88,2075 @@
     "id": "category_list",
     "name": "通用分类列表组件",
     "summary": "本组件提供了以宫格或者列表形式分类展示信息的功能。"
+  },
+  {
+    "id": "unknown_component",
+    "name": "会员中心组件",
+    "summary": "本组件提供了用户会员开通功能，其中开通会员中的华为支付、支付宝支付、微信支付功能暂未对接三方sdk的"
+  },
+  {
+    "id": "module_imagepreview",
+    "name": "图片预览组件",
+    "summary": "本组件提供了图片预览的功能，包括滑动预览、双指放大缩小图片。"
+  },
+  {
+    "id": "pura_harmony-utils",
+    "name": "harmony-utils",
+    "summary": "harmony-utils 一款功能丰富且极易上手的HarmonyOS工具库，借助众多实用工具类，致"
+  },
+  {
+    "id": "simple_recorder",
+    "name": "录音专家组件",
+    "summary": "本组件提供了录音、音频格式转换、音频转文字、音频编辑等功能。"
+  },
+  {
+    "id": "hw-agconnect_fast-web",
+    "name": "Web容器 FastWeb",
+    "summary": "FastWeb是基于open harmony基础组件开发的高性能Web容器，提供具有预启动、预渲染、"
+  },
+  {
+    "id": "exam",
+    "name": "考试答题组件",
+    "summary": "本组件支持展示各类考题，并可以进行考试。"
+  },
+  {
+    "id": "aggregated_share",
+    "name": "通用分享组件",
+    "summary": "本组件支持分享到微信好友、朋友圈、QQ、微博等，支持碰一碰分享、生成海报、系统分享等功能。"
+  },
+  {
+    "id": "search",
+    "name": "通用搜索组件",
+    "summary": "本组件提供了搜索功能，包括搜索历史，可选的猜你想搜和热搜榜，搜索联想，搜索结果，支持一多适配，平板提"
+  },
+  {
+    "id": "video_clip",
+    "name": "视频剪辑组件",
+    "summary": "本组件提供了视频剪辑及草稿管理组件。"
+  },
+  {
+    "id": "photo_editing",
+    "name": "修图神器组件",
+    "summary": "本组件提供了滤镜相机、图片拼接、图片编辑的功能。"
+  },
+  {
+    "id": "text_reader",
+    "name": "通用朗读组件",
+    "summary": "本组件提供了将文本转换成语音并朗读的功能。"
+  },
+  {
+    "id": "vip_center",
+    "name": "会员中心组件",
+    "summary": "本组件提供了用户会员开通功能，其中开通会员中的华为支付、支付宝支付、微信支付功能暂未对接三方sdk的"
+  },
+  {
+    "id": "rv_image-preview",
+    "name": "图片预览-ImagePreview",
+    "summary": "使用 Swiper，无需复杂配置，即写即用。方便的预览图片等不同组件，支持缩放和平移，提供一些自定义"
+  },
+  {
+    "id": "picture_watermark",
+    "name": "图片水印组件",
+    "summary": "本组件提供了图片添加水印、下载保存相册、历史添加缓存等功能。"
+  },
+  {
+    "id": "flip_clock",
+    "name": "翻页时钟和计时器组件",
+    "summary": "Flip Clock 是一款面向 HarmonyOS NEXT 的高质量翻页时钟与计时器组件，采用 "
+  },
+  {
+    "id": "science_calculator",
+    "name": "科学计算器组件",
+    "summary": "提供了多种科学计算方法的计算的功能。"
+  },
+  {
+    "id": "calendar_events",
+    "name": "日程提醒组件",
+    "summary": "日历重要提醒支持新增以及编辑日历、生日、纪念日、待办，支持将日程添加到系统日历提醒中。"
+  },
+  {
+    "id": "address_management",
+    "name": "通用地址管理组件",
+    "summary": "本组件提供了新增/编辑/删除地址等功能，支持从地图选址、智能识别地址、获取华为账号收货地址。"
+  },
+  {
+    "id": "answer_questions",
+    "name": "多功能答题组件",
+    "summary": "本组件提供了答题、计时器、查看答题卡以及添加笔记的功能，当前答题数据均为mock数据，实际开发请填充"
+  },
+  {
+    "id": "hadss_hmrouter",
+    "name": "HMRouter组件",
+    "summary": "一款功能强大的路由框架，支持服务型路由，可配置自定义拦截器、生命周期、转场动画，支持har、Hsp，"
+  },
+  {
+    "id": "hw-agconnect_ui-file-picker",
+    "name": "文件选择 UIFilePicker",
+    "summary": "UIFilePicker，是一个基于open harmony基础picker开发的文件选择上传组件，"
+  },
+  {
+    "id": "atomicservice_login",
+    "name": "通用元服务关联账号组件",
+    "summary": "本组件提供元服务登录/关联手机号码，解除关联的功能。"
+  },
+  {
+    "id": "aggregated_ads",
+    "name": "开屏广告组件",
+    "summary": "本组件提供了通过华为广告平台展示开屏广告的能力，开发者可以根据业务需要实现通过开屏广告变现。"
+  },
+  {
+    "id": "bluetooth_scan",
+    "name": "蓝牙扫描组件",
+    "summary": "本组件模块提供了2个单独的组件分别提供蓝牙扫描、扫描信息展示的能力，可以帮助开发者快速集成蓝牙相关的"
+  },
+  {
+    "id": "shopping_cart",
+    "name": "点餐购物车组件",
+    "summary": "本组件提供了点餐购物车展示功能，可以展示点餐购物车悬浮条以及点餐购物车列表，点餐购物车商品可以编辑修"
+  },
+  {
+    "id": "hw-agconnect_ui-video",
+    "name": "视频 UIVideo",
+    "summary": "UIVideo是基于open harmony基础组件开发的视频组件，支持横屏显示，以及音量、亮度和进"
+  },
+  {
+    "id": "hw-agconnect_ui-fab",
+    "name": "悬浮按钮组件 UIFab",
+    "summary": "UIFab是基于open harmony基础组件开发的悬浮按钮组件，点击可展开一个或多个按钮菜单。"
+  },
+  {
+    "id": "module_standard_calculator",
+    "name": "标准计算器组件",
+    "summary": "本组件提供了标准计算器以及查看历史记录能力。"
+  },
+  {
+    "id": "recorded_player",
+    "name": "播放组件",
+    "summary": "本组件提供了视频播放的能力。"
+  },
+  {
+    "id": "mobile_nfc",
+    "name": "手机NFC组件",
+    "summary": "本组件提供门禁卡、公交卡和银行卡的读取和克隆功能。"
+  },
+  {
+    "id": "module_form",
+    "name": "表单组件",
+    "summary": "本组件提供表单组件。"
+  },
+  {
+    "id": "shuishenhuole_bulletchat",
+    "name": "BulletChat手持弹幕组件",
+    "summary": "这是一款基于 HarmonyOS 开发的创新性手持弹幕应用组件专为粉丝应援场景打造！它不仅仅是一个简"
+  },
+  {
+    "id": "diary",
+    "name": "日记组件",
+    "summary": "本组件提供了写日记、编辑日记、删除日记、私密日记等功能。"
+  },
+  {
+    "id": "module_shopping_cart",
+    "name": "商城购物车组件",
+    "summary": "本组件展示了购物车商品列表信息和推荐商品信息，提供了商品选择、删除、增减商品数量、查看明细、结算、查"
+  },
+  {
+    "id": "module_weather_core",
+    "name": "天气组件",
+    "summary": "本组件提供浏览实时天气、24小时天气、15天天气和生活指数的相关能力，通过绘图实现直观天气信息展示。"
+  },
+  {
+    "id": "module_transition",
+    "name": "一镜到底组件",
+    "summary": "本组件支持卡片展开、搜索、查看大图一镜到底效果。"
+  },
+  {
+    "id": "dial_panel",
+    "name": "通用拨号组件",
+    "summary": "本组件提供了拉起拨号面板以及一键拨号的能力。"
+  },
+  {
+    "id": "decompression_tool",
+    "name": "敲木鱼组件",
+    "summary": "本组件提供了敲木鱼的功能。"
+  },
+  {
+    "id": "module_filter_list",
+    "name": "列表筛选组件",
+    "summary": "本组件提供列表筛选组件，支持条件筛选和列表展示等功能。"
+  },
+  {
+    "id": "caint_login",
+    "name": "手机号注册登录组件",
+    "summary": "一款基于华为认证服务的注册登录组件 。 1.手机号验证码注册。 2.手机号密码登录。"
+  },
+  {
+    "id": "remote_control",
+    "name": "万能空调遥控器组件",
+    "summary": "本组件提供了空调遥控器创建，删除及以发射红外信号控制对应空调等功能。"
+  },
+  {
+    "id": "compass",
+    "name": "罗盘组件",
+    "summary": "提供了罗盘方向的指引功能。"
+  },
+  {
+    "id": "calorie_calculation",
+    "name": "热量计算组件",
+    "summary": "本组件提供了展示卡路里计算和统计的相关功能。"
+  },
+  {
+    "id": "calendar_almanac",
+    "name": "黄历组件",
+    "summary": "黄历组件支持日期动态选择，阴历阳历、五行等信息展示。"
+  },
+  {
+    "id": "file_management",
+    "name": "文件管理组件",
+    "summary": "本组件提供了文件上传，重命名，删除和文件预览功能。"
+  },
+  {
+    "id": "module_product_share",
+    "name": "商品分享组件",
+    "summary": "本模板提供系统分享功能，支持保存商品为海报，复制商品链接，拉起华为系统分享和碰一碰分享功能。"
+  },
+  {
+    "id": "module_musicplay",
+    "name": "音乐播放组件",
+    "summary": "本组件提供了音乐播放控制面板，支持播放、暂停、下一曲、上一曲、调整播放进度、播放模式切换、播放列表、"
+  },
+  {
+    "id": "video_swiper",
+    "name": "竖屏滑动视频组件",
+    "summary": "本组件提供了展示短剧滑动视频、上下滑动切换短剧视频、切换到指定索引短剧视频等相关的能力，可以帮助开发"
+  },
+  {
+    "id": "module_city_select",
+    "name": "半模态城市选择组件",
+    "summary": "本组件支持通过定位、首字母选择、搜索等多种方式进行城市选择。"
+  },
+  {
+    "id": "draw_board",
+    "name": "绘画组件",
+    "summary": "本组件支持画笔，橡皮擦，图形绘制。"
+  },
+  {
+    "id": "module_line_chart",
+    "name": "折线图组件",
+    "summary": "本组件提供折线图相关功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-collapse",
+    "name": "折叠面板 UICollapse",
+    "summary": "UICollapse是基于open harmony基础组件开发的折叠面板组件，支持显示过长文本，支持"
+  },
+  {
+    "id": "login_info",
+    "name": "一键登录组件",
+    "summary": "本组件提供了华为账号一键登录的能力，开发者可以根据业务需要快速实现应用登录。"
+  },
+  {
+    "id": "module_course_schedule",
+    "name": "课表组件",
+    "summary": "本组件支持根据课程信息及相关配置进行课表UI渲染。"
+  },
+  {
+    "id": "money_track",
+    "name": "记账组件",
+    "summary": "本组件提供记账、查看账单列表和统计图表的功能。"
+  },
+  {
+    "id": "link_category",
+    "name": "分类列表组件",
+    "summary": "本组件提供了分类展示菜谱列表的相关功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-notice-bar",
+    "name": "通告栏 UINoticeBar",
+    "summary": "UINoticeBar是基于open harmony基础组件开发的通告栏组件，用于展示通知公告信息，"
+  },
+  {
+    "id": "analog_clock",
+    "name": "模拟时钟组件",
+    "summary": "这款 HarmonyOS NEXT 模拟时钟组件提供亮色与暗色两种高品质主题，完美适配日夜间模式。基"
+  },
+  {
+    "id": "live_interaction",
+    "name": "直播互动组件",
+    "summary": "本组件提供了显示和查看直播信息、弹幕、聊天互动、点赞、送礼、分享、清晰度设置、画中画、举报、清屏等相"
+  },
+  {
+    "id": "hw-agconnect_ui-cascader",
+    "name": "级联选择器 UICascader",
+    "summary": "UICascader是基于open harmony基础组件开发的级联选择器组件，支持多级选择、传入所"
+  },
+  {
+    "id": "abner_app_log",
+    "name": "应用内可视化日志查看工具组件",
+    "summary": "app_log是一个支持应用内和控制台双向日志查看的工具，使用简单，可视化操作，满足多种场景化需求，"
+  },
+  {
+    "id": "calendar_select",
+    "name": "日期选择组件",
+    "summary": "本组件提供入住、离开日期选择的功能。"
+  },
+  {
+    "id": "bill_chart",
+    "name": "账单图表组件",
+    "summary": "本组件提供了BillBarChart、BillPieChart、BillRanking 、BillR"
+  },
+  {
+    "id": "personal_notes",
+    "name": "隐私笔记组件",
+    "summary": "本组件提供了写笔记、编辑笔记、删除笔记、笔记分类、搜索、多选、排序、分享、复制等功能。"
+  },
+  {
+    "id": "mortgage_calculator",
+    "name": "房贷计算器组件",
+    "summary": "本模块提供了商业贷款、公积金贷款和组合贷款的还款计划计算功能。"
+  },
+  {
+    "id": "jack_dev_basiccomponetlib",
+    "name": "Jack基础组件",
+    "summary": "Jack 基础组件库是基于 ArkTS 开发的 HarmonyOS UI 组件库，含滑块、胶囊按钮、"
+  },
+  {
+    "id": "agcit_wind_photopicker",
+    "name": "作品发布组件",
+    "summary": "系统相册、相机、当前位置获取功能实现"
+  },
+  {
+    "id": "module_voice_broadcast",
+    "name": "语音播报组件",
+    "summary": "本组件提供了语音包列表组件，可以进行语言包的下载与切换。提供接口实现对文本的语音播报功能。"
+  },
+  {
+    "id": "exchange_calculator",
+    "name": "汇率计算器组件",
+    "summary": "本组件提供了多种币种之间实时汇率计算的功能。"
+  },
+  {
+    "id": "module_swipeplayer",
+    "name": "短视频滑动组件",
+    "summary": "本组件实现短视频切换场景，提供了短视频上下滑动、横竖屏切换、长按倍速、播放进度条拖动等能力。"
+  },
+  {
+    "id": "date_calculation",
+    "name": "多功能日期计算组件",
+    "summary": "本组件提供了展示当前日期日历、自定义选中颜色、选中图标形状、周首日、是否展示休息日、是否展示农历、是"
+  },
+  {
+    "id": "image_recognition",
+    "name": "图文识别组件",
+    "summary": "本组件提供了文字识别、二维码扫描、票据识别、卡证识别等功能。"
+  },
+  {
+    "id": "attraction_note",
+    "name": "游记组件",
+    "summary": "本组件提供游记浏览搜索、详情查看及评论等功能。"
+  },
+  {
+    "id": "hzw_zrouter",
+    "name": "ZRouter",
+    "summary": "ZRouter是一款轻量级且非侵入性的鸿蒙动态路由框架，可解决HAR/HSP业务模块间的耦合与通信问"
+  },
+  {
+    "id": "reader_tool_bar",
+    "name": "阅读器工具栏组件",
+    "summary": "阅读器工具栏支持打开书籍目录，并跳转到目标章节，调节屏幕亮度，切换深浅色模式，设置字号、字体、行间距"
+  },
+  {
+    "id": "guitar_tuning",
+    "name": "吉他调音器组件",
+    "summary": "本组件提供了吉他调音功能。"
+  },
+  {
+    "id": "custom_push",
+    "name": "推送组件",
+    "summary": "本组件提供了推送组件功能，其中消息中心数据均为mock数据，实际开发中可以做借鉴使用，具体推送请对接"
+  },
+  {
+    "id": "hw-agconnect_ui-dialog",
+    "name": "弹窗组件 UIDialog",
+    "summary": "UIDialog是基于open harmony基础组件开发的组件，用于在屏幕中显示一个全局弹窗的功能"
+  },
+  {
+    "id": "ya520_webdav",
+    "name": "ya520/webdav 协议通信与远程文件管理组件",
+    "summary": "一个基础的WebDAV客户端工具"
+  },
+  {
+    "id": "customdecoration",
+    "name": "customdecoration自定义装饰组件",
+    "summary": "本示例介绍通过自定义装饰器在自定义组件中自动添加inspector (布局回调)方法并进行调用。"
+  },
+  {
+    "id": "secretlock",
+    "name": "应用密码设置组件",
+    "summary": "本组件提供了密码设置功能，密码已进行持久化存储。"
+  },
+  {
+    "id": "hw-agconnect_ui-drawer",
+    "name": "抽屉 UIDrawer",
+    "summary": "UIDrawer是基于open harmony基础组件开发的组件，用于在屏幕侧边弹出一个面板，支持从"
+  },
+  {
+    "id": "internet_speed_measure",
+    "name": "网络测速组件",
+    "summary": "本组件提供了网络实时测速的功能。"
+  },
+  {
+    "id": "module_cast",
+    "name": "投屏组件",
+    "summary": "本组件支持视频投屏能力。"
+  },
+  {
+    "id": "ar_measure",
+    "name": "AR测量组件",
+    "summary": "本组件提供了识别空间立方体和嵌入式立方体空间的长、宽、高的能力，可用于测量立方体体积和嵌入式空间的大"
+  },
+  {
+    "id": "swiper_card",
+    "name": "滑动卡片组件",
+    "summary": "本组件提供了展示滑动卡片的相关功能。"
+  },
+  {
+    "id": "module_time_select",
+    "name": "时间选择弹窗组件",
+    "summary": "本组件提供通过底部弹窗选择日期时间的功能。"
+  },
+  {
+    "id": "picture_collage",
+    "name": "图片拼接组件",
+    "summary": "图片拼接组件，支持图片按网格直接拼接、海报拼接、模板拼接。"
+  },
+  {
+    "id": "hw-agconnect_ui-link",
+    "name": "超链接组件 UILink",
+    "summary": "UILink是基于open harmony基础组件开发的超链接组件，支持对网络链接的应用内打开、跳转"
+  },
+  {
+    "id": "festival_solar",
+    "name": "节日节气组件",
+    "summary": "本组件提供了节日、节气展示的相关功能。"
+  },
+  {
+    "id": "jackiehou_collapsing-toolbar",
+    "name": "CollapsingToolbar折叠动效组件",
+    "summary": "折叠工具栏效果。"
+  },
+  {
+    "id": "hw-agconnect_ui-swiper",
+    "name": "多级轮播图 UISwiper",
+    "summary": "UISwiper是基于open harmony基础组件开发的缩放轮播图组件，支持滑动过程中缩放图片、"
+  },
+  {
+    "id": "module_time_line",
+    "name": "时间轴组件",
+    "summary": "本组件提供时间轴相关功能。"
+  },
+  {
+    "id": "income_calculator",
+    "name": "个税计算器组件",
+    "summary": "本组件提供了工资、劳动报酬等收入个税计算的功能。"
+  },
+  {
+    "id": "membership",
+    "name": "通用会员组件",
+    "summary": "本组件提供了通过应用内支付实现会员开通的能力（自动续期订阅会员及非续期订阅会员），开发者可以根据业务"
+  },
+  {
+    "id": "privacy_consent_dialog",
+    "name": "通用隐私同意弹窗组件",
+    "summary": "本组件提供了多种类型的隐私弹窗封装，支持配置标题、应用信息、隐私政策描述及样式，同时支持为不同文本配"
+  },
+  {
+    "id": "upload_recipe",
+    "name": "上传菜谱组件",
+    "summary": "本组件提供了上传菜谱的相关功能，上传的图片目前保存在沙箱，如需上传至服务器需要自行实现。"
+  },
+  {
+    "id": "wuyo_wuyotable",
+    "name": "wuyotable表格渲染组件",
+    "summary": "轻量化即插即用表格渲染组件，支持多行、多列固定，二级三级表头，下滑右滑滚动查看。"
+  },
+  {
+    "id": "hw-agconnect_ui-sticky-scroll",
+    "name": "滚动吸顶组件 UIStickyScroll",
+    "summary": "UIStickyScroll是基于open harmony基础组件开发的滚动吸顶组件，支持滚动吸顶、"
+  },
+  {
+    "id": "featured_recipes",
+    "name": "菜谱瀑布流组件",
+    "summary": "本组件提供了展示菜谱列表搜瀑布流的相关功能。"
+  },
+  {
+    "id": "hw-agconnect_copilot",
+    "name": "Copilot智能聊天组件",
+    "summary": "Copilot是基于HarmonyOS开发的智能聊天组件，可以对接大模型（如DeepSeek、Qwe"
+  },
+  {
+    "id": "personal_homepage",
+    "name": "个人中心组件",
+    "summary": "本组件提供了个人中心的功能，包含个人简介、发布菜谱和收藏菜谱的相关功能，如果是用户信息支持展示登录和"
+  },
+  {
+    "id": "bmi_calculator",
+    "name": "BMI计算器组件",
+    "summary": "本组件提供了BMI的计算和记录功能。"
+  },
+  {
+    "id": "translator",
+    "name": "翻译组件",
+    "summary": "本组件提供了文本翻译、语音识别的功能。支持配置文本翻译和语音翻译的服务接口认证信息，从而实现多语言翻"
+  },
+  {
+    "id": "clone",
+    "name": "克隆工具组件",
+    "summary": "本组件提供了通讯录、图片、视频的克隆和隔空投送等功能。"
+  },
+  {
+    "id": "yiji_query",
+    "name": "宜忌查询组件",
+    "summary": "本组件提供了查询开始日期到结束日期内的吉日以及忌日的相关功能。"
+  },
+  {
+    "id": "credentials_photo",
+    "name": "证件照组件",
+    "summary": "本组件提供了证件照生成、背景更换、服装更换、证件照保存等功能。"
+  },
+  {
+    "id": "module_page_swiper",
+    "name": "馆藏珍品组件",
+    "summary": "本组件提供了馆藏珍品浏览、珍品详情查看的能力。"
+  },
+  {
+    "id": "zip_tool",
+    "name": "解压缩组件",
+    "summary": "本组件提供了解压、压缩等功能。"
+  },
+  {
+    "id": "bill_manage",
+    "name": "账单管理组件",
+    "summary": "本组件提供BillManageSheet和ResourceManageSheet两个账单管理页面。"
+  },
+  {
+    "id": "handheld_bullet",
+    "name": "手持弹幕组件",
+    "summary": "本组件提供了手持弹幕、荧光棒及历史记录管理功能。"
+  },
+  {
+    "id": "incentive_ad",
+    "name": "激励广告组件",
+    "summary": "本组件提供了展示激励广告的相关功能。"
+  },
+  {
+    "id": "ohos_adaptivecards",
+    "name": "ohos/adaptivecards卡片UI组件",
+    "summary": "自适应卡片是一种开放式的卡片格式，让开发人员能够使用JSON生成 UI 内容"
+  },
+  {
+    "id": "module_privacy_agreement",
+    "name": "申请权限许可组件",
+    "summary": "本组件为申请权限许可组件，可在应用首启需要用户同意隐私政策和其他协议时使用。"
+  },
+  {
+    "id": "search_question",
+    "name": "一键搜题组件",
+    "summary": "本组件提供了一键搜题页面的模板，本身集成语音输入，拍照识别，粘贴和清除功能，提供搜索和退出回调方法。"
+  },
+  {
+    "id": "aggregated_swiper",
+    "name": "聚合轮播组件",
+    "summary": "本组件提供了vr、视频、图片等聚合内容的轮播功能，支持视频和图片的全屏展示。"
+  },
+  {
+    "id": "home_search",
+    "name": "简易搜索组件",
+    "summary": "提供菜谱搜索功能，展示历史搜索、热门搜索和搜索后的结果。"
+  },
+  {
+    "id": "module_points",
+    "name": "自助积分组件",
+    "summary": "本组件支持扫码/拍照积分、管理积分记录。"
+  },
+  {
+    "id": "module_setfontsize",
+    "name": "字体大小调节组件",
+    "summary": "本组件支持实时查看字体大小调整效果。"
+  },
+  {
+    "id": "module_highlight",
+    "name": "高亮组件",
+    "summary": "本组件支持根据关键词实现文本高亮。"
+  },
+  {
+    "id": "module_text_reader",
+    "name": "朗读组件",
+    "summary": "本组件支持新闻类文章阅读。"
+  },
+  {
+    "id": "module_swiper_preview",
+    "name": "图片轮播预览组件",
+    "summary": "本组件提供了图片轮播的功能，点击图片可以打开大图预览页面，可捏合缩放图片，点击预览页面关闭大图预览。"
+  },
+  {
+    "id": "asset_manage",
+    "name": "资产管理组件",
+    "summary": "本组件提供了AssetCreateSheet和AssetInfoManageSheet两个资产管理页"
+  },
+  {
+    "id": "module_product_detail",
+    "name": "商品详情组件",
+    "summary": "本模板提供商品详情组件，支持商品详情的展示和商品规格选择。"
+  },
+  {
+    "id": "painting_color_selector",
+    "name": "绘画颜色选择器组件",
+    "summary": "本组件提供专业的颜色选择功能，支持HSB颜色模型、透明度调节、颜色吸取、实时颜色预览等功能，适用于绘"
+  },
+  {
+    "id": "\"\"",
+    "name": "RAG QA智能问答系统组件",
+    "summary": "本示例利用ArkData向量数据库，和RAG的开发框架，针对邮件的信息格式，开发一个邮件信息提取总结"
+  },
+  {
+    "id": "house_map",
+    "name": "地图找房组件",
+    "summary": "本组件基于华为地图能力，提供了按区查找和查找全部房源的功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-countdown",
+    "name": "倒计时 UICountdown",
+    "summary": "UICountdown是基于open harmony基础组件开发的倒计时组件，支持动态赋值、自由控制"
+  },
+  {
+    "id": "module_address_manage",
+    "name": "地图定位的地址管理组件",
+    "summary": "提供地址管理组件，支持新增、编辑、删除地址。"
+  },
+  {
+    "id": "module_keyboard",
+    "name": "车牌输入键盘组件",
+    "summary": "本组件支持国内通用车牌号的输入。"
+  },
+  {
+    "id": "module_date_calculation",
+    "name": "日期间隔和计算组件",
+    "summary": "本组件提供日期之间计算能力，包括计算2个日期之间的天数，计算选中日期前后的时间等功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-keyboard",
+    "name": "车牌号输入组件 UIKeyboard",
+    "summary": "UIKeyboard是基于open harmony基础组件开发的车牌号输入组件，支持车牌号输入，支持"
+  },
+  {
+    "id": "module_category",
+    "name": "左栏平铺分类组件",
+    "summary": "本组件提供分类容器组件，左侧是分类，右侧是分类包含的条目，支持自定义条目UI。"
+  },
+  {
+    "id": "chat_window",
+    "name": "聊天窗口组件",
+    "summary": "本组件提供了展示文本消息、表情消息、图片消息、视频消息、语音消息、地理位置消息的功能。"
+  },
+  {
+    "id": "abner_tab",
+    "name": "自定义指示器组件tab",
+    "summary": "tab是一个封装了主页底部导航按钮和通用的页签指示器，优化了系统tab，支持指示器跟随手势滑动,支持"
+  },
+  {
+    "id": "cxy_webserver",
+    "name": "cxy/webserver服务器框架组件",
+    "summary": "HarmonyOS Web服务器，提供类Express.js API，支持中间件、路由、静态服务"
+  },
+  {
+    "id": "message_manager",
+    "name": "消息管理组件",
+    "summary": "本组件提供了消息展示，已读、未读、删除查看等功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-skeleton",
+    "name": "骨架屏组件 UISkeleton",
+    "summary": "UISkeleton是基于open harmony的基础组件和动画系统开发的骨架屏组件。内置“头像、"
+  },
+  {
+    "id": "chat_input",
+    "name": "聊天输入组件",
+    "summary": "聊天输入组件，面向即时通讯场景，支持文本输入、长按语音、表情选择、照片/视频选择与位置选择。采用 T"
+  },
+  {
+    "id": "module_datechart",
+    "name": "图表及数据展示组件",
+    "summary": "本组件提供了按日、周、月展示折线图、曲线图和柱状图等功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-steps",
+    "name": "步骤条 UISteps",
+    "summary": "UISteps是基于open harmony基础组件开发的步骤条组件，包括横向和纵向两种布局，同时支"
+  },
+  {
+    "id": "module_product_search",
+    "name": "商品搜索组件",
+    "summary": "本模板提供商品搜索组件，可以查看并编辑搜索历史，查看并刷新推荐关键词，查看热搜榜。"
+  },
+  {
+    "id": "select_store",
+    "name": "选择店铺组件",
+    "summary": "本组件提供了店铺选择功能，可以展示地图窗口，显示店铺位置与名称，选择店铺时可以切换地图上的店铺。"
+  },
+  {
+    "id": "datetimeselecter",
+    "name": "多元日期时间选择器组件",
+    "summary": "多元日期时间选择器组件是一个集成了日期选择器与时间选择器的组件,可以实时返回string格式或Dat"
+  },
+  {
+    "id": "networkmanager",
+    "name": "NetworkManager网络管理组件",
+    "summary": "此Demo展示如何查询网络详情、域名解析、网络状态监听等功能。"
+  },
+  {
+    "id": "module_call_dialog",
+    "name": "拨号组件",
+    "summary": "本组件为拨号组件，可根据传入的电话号码拉起拨号弹窗，并在确认后自动拉起拨号面板。"
+  },
+  {
+    "id": "module_post",
+    "name": "发帖组件",
+    "summary": "本组件支持编辑互动发帖。"
+  },
+  {
+    "id": "asset_card",
+    "name": "资产卡片组件",
+    "summary": "本组件提供了AssetCard和AssetSummaryCard两种形式的卡片。"
+  },
+  {
+    "id": "ohos_axios",
+    "name": "axios网络请求组件",
+    "summary": "Axios ，是一个基于 promise 的网络请求库。本库基于npm Axios 原库进行适配，使"
+  },
+  {
+    "id": "abner_marquee",
+    "name": "跑马灯marquee组件",
+    "summary": "marquee，一个支持横向滚动、纵向滚动、连续和停顿的跑马灯组件，不仅仅局限于文字滚动，更支持任意"
+  },
+  {
+    "id": "module_secure_checkin",
+    "name": "签到组件",
+    "summary": "本组件提供课堂签到功能，支持根据实时位置与验证码进行签到。"
+  },
+  {
+    "id": "module_course_list",
+    "name": "课程列表组件",
+    "summary": "展示课程列表信息，支持使用垂直、水平展示方向，支持自定义字体、颜色、角标等。"
+  },
+  {
+    "id": "bill_card",
+    "name": "账单卡片组件",
+    "summary": "本组件提供了BillCard、BillSummaryCard、BillDetail三种形式的卡片。"
+  },
+  {
+    "id": "module_auth",
+    "name": "实名认证组件",
+    "summary": "本组件提供实名认证的功能。"
+  },
+  {
+    "id": "ruler",
+    "name": "直尺组件",
+    "summary": "本组件使用canvas绘制刻度尺，以厘米为单位进行真实长度的测量。"
+  },
+  {
+    "id": "hw-agconnect_ui-slider",
+    "name": "滑块 UISlider",
+    "summary": "UISlider是基于open harmony基础组件开发的滑块组件。包括单滑块、双滑块和没有滑块三"
+  },
+  {
+    "id": "kinship_calculator",
+    "name": "亲属称呼换算器组件",
+    "summary": "本组件提供了亲属称呼换算功能。"
+  },
+  {
+    "id": "wheel",
+    "name": "转盘组件",
+    "summary": "本组件提供了通过转盘获取奖励的功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-category",
+    "name": "分类 UICategory",
+    "summary": "UICategory是基于open harmony基础组件开发的分类组件，支持单级分类、多级分类。"
+  },
+  {
+    "id": "module_search",
+    "name": "带返回按钮的搜索组件",
+    "summary": "本组件提供搜索组件，展示热门搜索词，支持根据名称搜索家政服务。"
+  },
+  {
+    "id": "module_posting",
+    "name": "意见反馈和历史记录组件",
+    "summary": "本组件提供填写意见、发布意见的功能。"
+  },
+  {
+    "id": "cast_tool",
+    "name": "本地影音投屏组件",
+    "summary": "本组件提供了音频投屏、视频投屏等功能。"
+  },
+  {
+    "id": "abner_curve_navigation",
+    "name": "底部曲线导航curve_navigation",
+    "summary": "curve_navigation是一个正弦曲线形式的底部导航，摒弃传统的导航模式，让底部导航变得好看"
+  },
+  {
+    "id": "module_check_in",
+    "name": "打卡组件",
+    "summary": "展示打卡界面，支持选择图片、视频资源并展示预览效果。"
+  },
+  {
+    "id": "module_city_manage",
+    "name": "城市管理组件",
+    "summary": "本组件提供了当前城市的自动定位和刷新功能，提供热门城市的快捷选择以及区域搜索功能。并支持关注城市的拖"
+  },
+  {
+    "id": "today_history",
+    "name": "历史上的今天组件",
+    "summary": "本组件提供查询历史上的今天相关功能，此组件为mock数据,固定展示6月13号的历史上的今天，实际接入"
+  },
+  {
+    "id": "avrecorder",
+    "name": "AVRecorder录像功能组件",
+    "summary": "本示例通过CameraKit自定义相机，并通过AVRecorder进行录像。"
+  },
+  {
+    "id": "threeimgbanner",
+    "name": "三图Banner轮播滑动展示组件",
+    "summary": "三图Banner轮播滑动展示组件可同时出现的3张轮播图,可滑动一张张滑动到屏幕内,可通过回调函数拿到"
+  },
+  {
+    "id": "harmony_noviceguide",
+    "name": "HarmonyOS_noviceguide",
+    "summary": "HarmonyOS_noviceguide是一款专为 HarmonyOS（ArkUI）打造的高性能新"
+  },
+  {
+    "id": "module_parking_map",
+    "name": "停车场地图列表组件",
+    "summary": "本组件提供了停车场的地图显示和列表显示功能，可通过滑动地图或者设置地图中心来更新附近停车场。"
+  },
+  {
+    "id": "module_product_review",
+    "name": "商品评价组件",
+    "summary": "本组件提供商品评价功能，支持评定星级、填写评价、上传图片。"
+  },
+  {
+    "id": "tactilevibration",
+    "name": "触感震动全局控制组件",
+    "summary": "一款适用于HarmonyOS 5.0以上的轻量震动工具类，支持自定义震动时长、倍数调节、全局开关控制"
+  },
+  {
+    "id": "xingqiaonav",
+    "name": "xingqiaonav导航栏组件",
+    "summary": "xingqiaonav是一款高度自定义的导航栏组件，结合系统的自带的导航栏，实现0侵入系统返回按钮，"
+  },
+  {
+    "id": "order_detail",
+    "name": "订单详情组件",
+    "summary": "本组件提供了订单详情展示功能，包含订单状态、制作和配送信息、店铺信息、商品列表、优惠信息和订单信息。"
+  },
+  {
+    "id": "module_coupons",
+    "name": "商城优惠券组件",
+    "summary": "本模块提供了优惠券的浏览与选择的能力，可以帮助开发者快速集成优惠券的相关业务。"
+  },
+  {
+    "id": "base_select",
+    "name": "分栏基础组件",
+    "summary": "本组件提供了一级通用分类的能力，引入一二三级嵌套所有数据。开发者可以根据实际业务需要快速实现一级分类"
+  },
+  {
+    "id": "pension_calculator",
+    "name": "养老金计算器组件",
+    "summary": "本组件提供了养老金计算的功能。"
+  },
+  {
+    "id": "attraction_guide",
+    "name": "景区导览组件",
+    "summary": "提供景区景点及配套设施导览功能。"
+  },
+  {
+    "id": "add_address",
+    "name": "新增地址组件",
+    "summary": "本组件提供了新建和展示联系地址功能，可以地图选点获取位置信息，输入联系人信息保存后可以展示信息。"
+  },
+  {
+    "id": "module_product_list",
+    "name": "产品列表组件",
+    "summary": "本组件提供产品列表相关功能。"
+  },
+  {
+    "id": "module_address_search",
+    "name": "地址搜索联想补全组件",
+    "summary": "本组件提供了搜索词条的地址联想、自动补全功能，展示对应的真实地址列表。自定义点击事件、并实现搜索记录"
+  },
+  {
+    "id": "hw-agconnect_ui-number-box",
+    "name": "数字输入框 UINumberBox",
+    "summary": "UINumberBox是基于open harmony基础组件开发的带加减按钮的数字输入框组件，支持设"
+  },
+  {
+    "id": "wifi_scan",
+    "name": "wifi扫描选择组件",
+    "summary": "本组件提供了wifi选择的能力，包括wifi列表选择，密码展示等"
+  },
+  {
+    "id": "hw-agconnect_ui-load-more",
+    "name": "加载更多 UILoadMore",
+    "summary": "UILoadMore是基于open harmony基础组件开发的加载更多组件。包括加载前、加载中和没"
+  },
+  {
+    "id": "video_edit",
+    "name": "视频编辑组件",
+    "summary": "本组件提供了完整的视频编辑功能，包括视频裁剪、拼接、画中画、提词器、字幕添加等核心编辑能力，支持视频"
+  },
+  {
+    "id": "profile_edit",
+    "name": "个人信息编辑组件",
+    "summary": "本组件支持编辑个人信息，包括姓名、性别、手机号、生日等，以及支持查看用户协议。"
+  },
+  {
+    "id": "module_custom_service_chat",
+    "name": "客服聊天组件",
+    "summary": "本组件提供客服聊天组件，提供聊天交互界面。"
+  },
+  {
+    "id": "module_theme",
+    "name": "主题组件",
+    "summary": "本组件提供了展示当前选中主题、所有主题以及浏览切换主题的相关能力。"
+  },
+  {
+    "id": "financial_calculator",
+    "name": "理财计算器组件",
+    "summary": "本组件提供了银行理财、复利理财、定投理财等功能。"
+  },
+  {
+    "id": "module_template",
+    "name": "快递信息模板管理组件",
+    "summary": "本组件提供模板管理的功能，可以生成一个固定物品信息的寄件模板，方便用户多次寄送同一类快递。"
+  },
+  {
+    "id": "shopping_basket",
+    "name": "菜篮子组件",
+    "summary": "本组件提供了展示菜篮子页面的相关功能。"
+  },
+  {
+    "id": "module_channeledit",
+    "name": "频道编辑组件",
+    "summary": "本组件支持添加分类、拖拽分类排序等。"
+  },
+  {
+    "id": "module_coupon",
+    "name": "停车优惠券组件",
+    "summary": "本组件支持停车优惠券的管理和选择。"
+  },
+  {
+    "id": "retirement_age_calculator",
+    "name": "退休年龄计算器组件",
+    "summary": "本组件提供了退休年龄计算的功能。"
+  },
+  {
+    "id": "area_calculate",
+    "name": "面积测量组件",
+    "summary": "本组件提供了绘制多边形，通过设置某一条边的长度可以计算多边形的面积的功能。"
+  },
+  {
+    "id": "prq_ffmpeg-tools",
+    "name": "FFmpeg工具库组件",
+    "summary": "在HarmonyOS中调用 FFmpeg 命令行工具（fftools），最终驱动 FFmpeg.so"
+  },
+  {
+    "id": "ikang_ikconsolekit",
+    "name": "终端控制台组件",
+    "summary": "IKConsoleKit 是一个极为简单易用的端侧调试工具，同时兼容鸿蒙应用和元服务。只需要两行代码"
+  },
+  {
+    "id": "module_notice_board",
+    "name": "消息轮播组件",
+    "summary": "本组件提供消息轮播相关功能。"
+  },
+  {
+    "id": "module_decoration_form",
+    "name": "装修表单组件",
+    "summary": "本组件提供装修表单组件。"
+  },
+  {
+    "id": "xwf_image_preview",
+    "name": "ImagePreview图片预览组件",
+    "summary": "ImagePreview 提供图片预览组件 1. 支持单击切换背景 2. 双击放大缩小 3. 双指捏"
+  },
+  {
+    "id": "module_store_comments",
+    "name": "店铺评价组件",
+    "summary": "本组件为店铺评价组件，可查看评价列表并发表匿名评价。"
+  },
+  {
+    "id": "goods_detail",
+    "name": "点餐商品详情组件",
+    "summary": "本组件提供了展示多种类型点餐商品详情的功能。"
+  },
+  {
+    "id": "module_store_map",
+    "name": "商铺地图组件",
+    "summary": "商铺地图组件，支持展示商铺地理位置和用户所在位置，支持在首次安装时请求地理位置权限，可以帮助开发者快"
+  },
+  {
+    "id": "guide",
+    "name": "考试引导组件",
+    "summary": "本组件提供驾考信息登记导航组件，用于引导用户完成驾考报名前的信息登记流程。"
+  },
+  {
+    "id": "module_daily",
+    "name": "每日打卡组件",
+    "summary": "本组件提供了每日运动记录的展示功能，包括周视图日历、三层圆环仪表盘展示步数/距离/卡路里的完成情况、"
+  },
+  {
+    "id": "data_dashboard",
+    "name": "数据看板组件",
+    "summary": "本组件提供了健康数据可视化能力，用于展示步数、心率、血压、血糖、睡眠等健康数据。提供6种专业健康图表"
+  },
+  {
+    "id": "ohos_disklrucache",
+    "name": "disklrucache磁盘缓存组件",
+    "summary": "专门为OpenHarmony打造的一款磁盘缓存库，通过LRU算法进行磁盘数据存取。"
+  },
+  {
+    "id": "module_calendar_picker",
+    "name": "预约日期选择组件",
+    "summary": "本组件提供了显示当前日期、设置可选时间段、设置禁用时间段以及配置对应提示文字的功能。"
+  },
+  {
+    "id": "protractor",
+    "name": "量角器组件",
+    "summary": "本组件使用canvas、相机绘制量角器，可自由设置量角器半径、起始角度结束角度、刻度值。"
+  },
+  {
+    "id": "pura_harmony-dialog",
+    "name": "harmony-dialog文本输入弹窗组件",
+    "summary": "一款极为简单易用的零侵入弹窗，仅需一行代码即可轻松实现，无论在何处都能够轻松弹出。其涵盖了 Aler"
+  },
+  {
+    "id": "module_face_verification",
+    "name": "人脸活体检测组件",
+    "summary": "本组件为人脸活体检测组件，可进行人脸识别，并返回此次识别主体是否为真人活体或者为非活体。"
+  },
+  {
+    "id": "module_address_card",
+    "name": "地址卡片组件",
+    "summary": "本组件提供以卡片形式展示地址、选择地址的功能。"
+  },
+  {
+    "id": "ohos_mp4parser",
+    "name": "mp4parser视频编解码组件",
+    "summary": "一个读取、写入操作音视频文件编辑的工具。支持视频裁剪、视频合成、音频裁剪、音频合成、视频取帧。"
+  },
+  {
+    "id": "my_wallet",
+    "name": "钱包组件",
+    "summary": "本组件提供了钱包充值和查看充值记录的功能，可以使用华为支付充值钱包并查看充值记录。"
+  },
+  {
+    "id": "task_list",
+    "name": "日常任务组件",
+    "summary": "本组件提供了做日常任务的功能，其中看剧功能暂未对接三方短剧位，所展示短剧均为调测短剧，实际开发中可以"
+  },
+  {
+    "id": "day_signin",
+    "name": "福利签到组件",
+    "summary": "本组件提供了福利页面的打卡功能，其中打卡获取金币数据均为mock数据，实际开发中可以做借鉴使用。"
+  },
+  {
+    "id": "select_category",
+    "name": "多级分栏组件",
+    "summary": "本组件提供了二级三级分类的能力，开发者可以根据实际业务需要快速实现二三级分类。"
+  },
+  {
+    "id": "desktop_layout",
+    "name": "桌面布局",
+    "summary": "一款用于 OpenHarmony / HarmonyOS 的响应式桌面栅格布局组件"
+  },
+  {
+    "id": "tourist_management",
+    "name": "常用游客管理组件",
+    "summary": "本组件提供常用游客查看与管理，并且支持多选进行表单填充等功能。"
+  },
+  {
+    "id": "module_product_filter",
+    "name": "商品筛选组件",
+    "summary": "本组件提供了根据筛选条件对商品进行筛选的功能。"
+  },
+  {
+    "id": "keke_color-picker",
+    "name": "ColorPicker颜色选择器组件",
+    "summary": "ColorPicker 是一款简洁的颜色选择器组件，基于 HSB 色彩模型设计。使用 @Compon"
+  },
+  {
+    "id": "route_search",
+    "name": "公交路线搜索组件",
+    "summary": "本组件提供了展示公交路线搜索结果的相关功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-media-preview",
+    "name": "多媒体预览组件 UIMediaPreview",
+    "summary": "UIMediaPreview是一个基于open harmony基础组件开发的多媒体预览组件。支持传入"
+  },
+  {
+    "id": "look_ad",
+    "name": "看广告领奖励组件",
+    "summary": "本组件提供了看广告领奖励的功能，其中看广告功能暂未对接三方广告位，所展示广告均为调测广告，实际开发中"
+  },
+  {
+    "id": "hw-agconnect_ui-date-format",
+    "name": "日期格式化组件 UIDateFormat",
+    "summary": "UIDateFormat是基于open harmony的I18N国际化模块开发的日期格式化组件。支持"
+  },
+  {
+    "id": "zhongrui_pull_to_refresh",
+    "name": "PullToRefresh下拉刷新组件",
+    "summary": "PullToRefresh实现垂直列表下拉刷新,上拉加载，横向列表左拉刷新，右拉加载"
+  },
+  {
+    "id": "ibestservices_ibest-ui-v2",
+    "name": "ibestui-v2 UI组件",
+    "summary": "一个轻量、简单易用、可定制主题、支持深色模式和浅色模式的HarmonyOS开源UI组件库, 包含Bu"
+  },
+  {
+    "id": "tb-open_svga",
+    "name": "svga动画播放组件",
+    "summary": "SVGA HarmonyOS版播放器"
+  },
+  {
+    "id": "module_articlepost",
+    "name": "新闻发布组件",
+    "summary": "本组件支持新闻发布，包括富文本编辑。"
+  },
+  {
+    "id": "abner_rating",
+    "name": "星级评分组件",
+    "summary": "rating是一个简单的星级评分组件，和系统的区别是，不用设置资源，纯组件绘制，只需传递颜色即可，支"
+  },
+  {
+    "id": "ibestservices_ucharts",
+    "name": "UCharts可视化图表组件",
+    "summary": "一款基于TypeScript的高性能跨平台数据可视化图表库。"
+  },
+  {
+    "id": "ohos_webrtc",
+    "name": "ohos/webrtc音频传输组件",
+    "summary": "ArkTS interfaces of webrtc for OpenHarmony."
+  },
+  {
+    "id": "offline_video_download",
+    "name": "离线视频下载组件",
+    "summary": "本组件用于在本地实现视频的下载与播放管理，提供下载进度展示、播放/暂停控制、进度滑条拖拽、横竖屏切换"
+  },
+  {
+    "id": "ikang_iksmartrefresh",
+    "name": "自定义刷新组件",
+    "summary": "IKSmartRefresh是一款专为HarmonyOS NEXT打造的直接/间接使用的上拉加载的组"
+  },
+  {
+    "id": "abner_icon",
+    "name": "图标icon组件",
+    "summary": "icon是一个图标组件，有着各式各样的常用图标，目前已累计408种图标，包体积小，使用简单，支持更改"
+  },
+  {
+    "id": "zyl_qqcommonlibhar",
+    "name": "CommonLibHarQQ功能封装组件",
+    "summary": "QQ二次封装组件，简化使用QQ分享、QQ授权登录、计算签名等功能。"
+  },
+  {
+    "id": "twoweekslibrary",
+    "name": "两周日历组件",
+    "summary": "两周日历组件，是一款可以提供两周日历与星期的日历组件，并可以自动标记当天日期所在的位置和自定义日期颜"
+  },
+  {
+    "id": "reservation_card",
+    "name": "预约管理卡片组件",
+    "summary": "本组件支持查看预约信息、添加日程、订阅通知、取消预约等。"
+  },
+  {
+    "id": "abner_dialog",
+    "name": "dialog",
+    "summary": "dialog是一个便捷的弹窗，一行代码便可以搞定，无须初始化，便在任何地方都可以弹出，Dialog中"
+  },
+  {
+    "id": "traffic_restriction",
+    "name": "城市限行组件",
+    "summary": "本组件提供了城市限行组件，当前尾号限行数据均为mock数据，实际开发请填充业务真实数据。"
+  },
+  {
+    "id": "clock_in",
+    "name": "定位打卡组件",
+    "summary": "本组件提供了定位打卡，查询打卡记录的功能。"
+  },
+  {
+    "id": "hw-agconnect_auth",
+    "name": "AGConnect 认证服务组件",
+    "summary": "认证服务可以为您的应用快速构建安全可靠的用户认证系统，您只需在应用中访问认证服务的相关能力，而不需要"
+  },
+  {
+    "id": "route_detail",
+    "name": "公交路线详情组件",
+    "summary": "本组件提供了展示公交路线详情的相关功能，开发者传入对应数据后，可以快速绘制公交路线以及动态展示公交信"
+  },
+  {
+    "id": "wuyan_hm_chart",
+    "name": "hm chart图表绘制组件",
+    "summary": "一个基于echarts原库进行二次封装适配,使其可以运行在 OpenHarmony，并沿用其现有用法"
+  },
+  {
+    "id": "ohos_svg",
+    "name": "svg矢量图形处理组件",
+    "summary": "ohos-svg是一个SVG图片的解析器和渲染器，可以解析SVG图片并渲染到页面上，还可以动态改变S"
+  },
+  {
+    "id": "audio_crop",
+    "name": "音频裁剪组件",
+    "summary": "本组件提供了音频裁剪功能，支持可视化波形展示、精确时间选择、实时预览播放等功能。"
+  },
+  {
+    "id": "abner_polyline",
+    "name": "折线图polyline组件",
+    "summary": "polyline是一个简单的折线图组件，只为折线图服务！支持单折线，多折线展示，支持多种效果，支持点"
+  },
+  {
+    "id": "wcmzllx_axisrenderlibrary",
+    "name": "自定义坐标轴-AxisRender",
+    "summary": "一个基于NDK开发的高性能坐标轴，支持横竖显示，支持高度自定义绘制。 它能干什么？ - 尺子 - 温"
+  },
+  {
+    "id": "module_parking_base",
+    "name": "停车场卡片组件",
+    "summary": "本模块为module_parking_map停车场地图列表组件和module_parking_spo"
+  },
+  {
+    "id": "module_parking_spots",
+    "name": "附近停车场组件",
+    "summary": "本组件提供了展示附近停车场和收藏停车场的功能，可通过下拉刷新、获取当前位置的附近停车场。"
+  },
+  {
+    "id": "easy_refresh_easy_refresh_scroll",
+    "name": "EasyRefreshScroll上拉下拉刷新组件",
+    "summary": "HarmonyOsRefresh是基于ArkUI封装的上拉下拉刷新组件，支持List、Grid、Wa"
+  },
+  {
+    "id": "cjcalendar",
+    "name": "cjcalendar日历组件",
+    "summary": "cjcalendar 是一款基于ArkTs+ArkUI+NEXT适配开发的通用日历组件，支持左右滑动"
+  },
+  {
+    "id": "snack_sized_deal",
+    "name": "超值加购组件",
+    "summary": "本组件提供了下单时增加超值商品加购的功能。"
+  },
+  {
+    "id": "hw-agconnect_ui-fav",
+    "name": "收藏按钮 UIFavButton",
+    "summary": "UIFavButton，是一个基于open harmony基础组件开发的收藏按钮，包含常规、无图标、"
+  },
+  {
+    "id": "seagazer_cclyric",
+    "name": "cclyric音乐播放器歌词组件",
+    "summary": "音乐歌词组件库，支持逐字歌词、逐行歌词、滑动seek操作、歌词滚动显示、歌词自定义显示等。"
+  },
+  {
+    "id": "lidary_markdown",
+    "name": "HMarkdown文本解析组件",
+    "summary": "HMarkdown基于marked的HarmonyOS端markdown渲染库。"
+  },
+  {
+    "id": "ohmos_activity_overview",
+    "name": "activity_overview组件",
+    "summary": "activity_overview 是一个类似于 GitHub 贡献图（Contribution G"
+  },
+  {
+    "id": "ikang_ikskeletonscreen",
+    "name": "骨架屏组件",
+    "summary": "一个功能强大、易用性高的鸿蒙骨架屏组件，支持丰富的预设模板和自定义配置。"
+  },
+  {
+    "id": "hw-agconnect_ui-code-input",
+    "name": "验证码输入组件 UICodeInput",
+    "summary": "UICodeInput基于open harmony开发的验证码输入组件。支持自定义位数。支持输入跳转"
+  },
+  {
+    "id": "tyme4oh",
+    "name": "Tyme日历工具库组件",
+    "summary": "Tyme是一个非常强大的日历工具库，可以看作 Lunar 的升级版，拥有更优的设计和扩展性，支持公历"
+  },
+  {
+    "id": "ohos_lottie",
+    "name": "lottie动画组件",
+    "summary": "lottie是一个适用于OpenHarmony的动画库，它可以使用Bodymovin解析以json格"
+  },
+  {
+    "id": "travel_planning",
+    "name": "路线规划组件",
+    "summary": "本组件提供了旅游路线规划功能，支持用户选择出发地、目的地和游玩天数，并根据选择智能推荐旅游路线。"
+  },
+  {
+    "id": "module_loan_form",
+    "name": "贷款信息表单提交组件",
+    "summary": "本组件为贷款信息表单提交组件，可进行贷款所需的用户信息的收集包括姓名、身份证号、性别、银行卡的填写与"
+  },
+  {
+    "id": "module_bmiassess",
+    "name": "BMI组件",
+    "summary": "本组件提供了BMI（Body Mass Index，身体质量指数）评估功能，其中包含：BMI值计算、"
+  },
+  {
+    "id": "module_customer_service",
+    "name": "在线客服组件",
+    "summary": "本组件提供了在线客服的功能。"
+  },
+  {
+    "id": "audio_extraction",
+    "name": "音频提取组件",
+    "summary": "本组件提供了从视频文件中提取音频的功能，支持视频预览播放、自定义输出格式、实时进度显示等功能。"
+  },
+  {
+    "id": "ohos_mind-elixir",
+    "name": "mind elixir思维导图框架组件",
+    "summary": "基于HarmonyOS平台开发的轻量级、高性能思维导图框架，致力于为开发者提供一站式的思维可视化解决"
+  },
+  {
+    "id": "ohos_video-cache",
+    "name": "video-cache视频缓存组件",
+    "summary": "OhosVideoCache是一个支持边播放边缓存的库，只需要将音视频的url传递给OhosVide"
+  },
+  {
+    "id": "fast_xml_parser",
+    "name": "fast_xml_parser序列化组件",
+    "summary": "Validate XML, Parse XML to JS Object, or Build XML"
+  },
+  {
+    "id": "xinyansoft_oh-date-picker",
+    "name": "oh date picker日期选择组件",
+    "summary": "Openharmony & HarmonyOS平台日期选择器增强版，支持选择年月、年月日、年月日时分"
+  },
+  {
+    "id": "wolfx_lodash",
+    "name": "lodash(JS对象处理)组件",
+    "summary": "移植 lodash.js到HarmonyOS，针对HarmonyOS做了优化，内置TS类型，仅保留了"
+  },
+  {
+    "id": "abner_slider",
+    "name": "滑块验证slider组件",
+    "summary": "slider是一个支持简单便捷的滑块验证组件，无论背景还是滑块等样式，均可自定义实现。"
+  },
+  {
+    "id": "hw-agconnect_ui-pagination",
+    "name": "分页器 UIPagination",
+    "summary": "UIPagination，是一个基于open harmony基础组件开发的分页器按钮，包含图标按钮版"
+  },
+  {
+    "id": "ohos_crypto-js",
+    "name": "crypto-js加解密算法组件",
+    "summary": "本软件是移植开源软件 crypto-js 源码在OpenHarmony上进行功能适配，在OpenHa"
+  },
+  {
+    "id": "cxy_sandboxfinder",
+    "name": "SandboxFinder-沙箱浏览器组件",
+    "summary": "快速访问应用沙箱目录，支持模拟器和真机。支持沙箱文件预览、下载、上传、删除、搜索。"
+  },
+  {
+    "id": "ohos_socketio",
+    "name": "socketio通信组件",
+    "summary": "socketio是一个在客户端和服务器之间实现低延迟、双向和基于事件的通信的库。建立在 WebSoc"
+  },
+  {
+    "id": "bottomdrawerslideplus",
+    "name": "底部抽屉分段滑动+浮动按钮与旋转齿轮动效组件",
+    "summary": "本示例基于[底部抽屉滑动效果案例](https://gitee.com/harmonyos-case"
+  },
+  {
+    "id": "audio_format_conversion",
+    "name": "音频格式转换组件",
+    "summary": "本组件提供了音频格式转换功能，支持选择音频文件，将音频转换为多种常见格式（mp3、aac、m4a、w"
+  },
+  {
+    "id": "audio_adjust_speed",
+    "name": "音频调速组件",
+    "summary": "本组件提供了音频调速功能，支持选择音频文件，进行音频调速。"
+  },
+  {
+    "id": "lowen_retrofit_next",
+    "name": "retrofit next网络请求组件",
+    "summary": "HarmonyOS Next自己的Retrofit网络请求库"
+  },
+  {
+    "id": "ifbear_fast-xml-parser",
+    "name": "fast xml parser构建验证XML组件",
+    "summary": "验证XML、将XML解析为JS对象，或从JS对象构建XML，无需基于C/C++的库，也无需回调函数。"
+  },
+  {
+    "id": "zyl_weibo_har",
+    "name": "WeiboHar微博功能封装组件",
+    "summary": "微博功能封装组件，简化使用，微博分享，微博登录。"
+  },
+  {
+    "id": "automatic_association_count",
+    "name": "元服务关联账号组件",
+    "summary": "本组件提供关联华为账号，解除关联的功能。"
+  },
+  {
+    "id": "travel_invoice",
+    "name": "发票编辑组件",
+    "summary": "本组件提供了发票管理的相关功能，支持发票列表展示、添加新发票、编辑现有发票、删除发票等能力。组件采用"
+  },
+  {
+    "id": "hzw_zdb",
+    "name": "zdb数据库管理组件",
+    "summary": "数据库操作工具类"
+  },
+  {
+    "id": "audio_adjust_tone",
+    "name": "音频调节组件",
+    "summary": "本组件提供了音频音调调节功能，支持选择音频文件，通过滑块调节音频的音调（赫兹）。"
+  },
+  {
+    "id": "module_timer",
+    "name": "运动计时面板组件",
+    "summary": "本组件提供了倒计时展示功能，选择时分秒后，即可控制其开始、停止、暂停倒计时，返回倒计时进度。"
+  },
+  {
+    "id": "module_trajectory",
+    "name": "轨迹地图面板组件",
+    "summary": "本组件使用华为地图，提供了展示运动路径列表、删除路径、展示运动路径的功能，支持上传运动生成的路线，点"
+  },
+  {
+    "id": "attraction_announcement",
+    "name": "景点播报组件",
+    "summary": "本组件提供景点介绍语音播报功能。"
+  },
+  {
+    "id": "ohos_image-edit",
+    "name": "ohos/image-edit图片编辑组件",
+    "summary": "一个功能完整、可扩展的 HarmonyOS ArkTS 图片编辑组件，提供画板、马赛克、裁剪、文字四"
+  },
+  {
+    "id": "module_product_scan",
+    "name": "商品识别组件",
+    "summary": "本组件支持扫描商品条码/二维码，拍摄商品图片并获取返回结果。"
+  },
+  {
+    "id": "shuishenhuole_dlpantipeep",
+    "name": "dlpantipeep防窥组件",
+    "summary": "借助HarmonyOS6.0 的防窥保护组件，开发工作真正实现了化繁为简。其高度封装的 API 使复"
+  },
+  {
+    "id": "zhongrui_pull_to_refresh_v2",
+    "name": "Pull To Refresh V2装饰器组件",
+    "summary": "PullToRefresh 实现垂直列表下拉刷新,上拉加载，横向列表左拉刷新，右拉加载。"
+  },
+  {
+    "id": "reservation_form",
+    "name": "预约表单组件",
+    "summary": "本组件支持填写预约表单信息，包括预约时间、预约联系人等。"
+  },
+  {
+    "id": "ohos_hypium",
+    "name": "Hypium测试框架组件",
+    "summary": "一款应用于OpenHarmony上的测试框架"
+  },
+  {
+    "id": "hw-agconnect_ui-toast",
+    "name": "即时反馈UIToast组件",
+    "summary": "ui toast是基于open harmony基础组件开发的组件，用于在屏幕中显示一个操作的轻量级即"
+  },
+  {
+    "id": "wtr",
+    "name": "wtr加载刷新组件",
+    "summary": "下拉刷新、上拉加载，可自定义刷新加载风格(refresh)；加载弹框、消息提示；JSON转对应模型；"
+  },
+  {
+    "id": "fukealine_a_drawer",
+    "name": "drawer可滑动抽屉组件",
+    "summary": "drawer是一个支持动态设置等级的抽屉组件。"
+  },
+  {
+    "id": "hzw_logger",
+    "name": "Logger日志框架组件",
+    "summary": "Logger是一款简单、漂亮、实用的鸿蒙应用日志框架，可自定义日志行为，比如日志缓存、上报等。"
+  },
+  {
+    "id": "ohos_dataorm",
+    "name": "dataorm数据库组件",
+    "summary": "dataORM 是一个轻量级 ORM（对象关系映射）库，用于简化本地数据库的操作。提供了高效的数据库"
+  },
+  {
+    "id": "hw-agconnect_ui-caliper",
+    "name": "卡尺组件 UICaliper",
+    "summary": "UICaliper是基于open harmony开发的卡尺组件。用于在屏幕中展示一个卡尺，支持左右滑"
+  },
+  {
+    "id": "hw-agconnect_ui-watermark",
+    "name": "水印组件 UIWaterMark",
+    "summary": "UIWaterMark是基于open harmony开发的水印组件。支持添加文字水印，调整文字大小和"
+  },
+  {
+    "id": "hw-agconnect_ui-guide",
+    "name": "引导组件 UIGuide",
+    "summary": "UIGuide是基于open harmony的Popup开发的引导组件。蒙版遮罩、气泡聚焦，分步引导"
+  },
+  {
+    "id": "ohos_fastble",
+    "name": "FastBle蓝牙BLE处理组件",
+    "summary": "FastBle是一个处理蓝牙BLE设备的库，可以对蓝牙BLE设备进行过滤，扫描，连接，读取，写入等。"
+  },
+  {
+    "id": "lyb_loading-dialog",
+    "name": "loading-dialog加载弹窗组件",
+    "summary": "loadingDialog 是一个简单易用的Loading组件，支持Loading，success，"
+  },
+  {
+    "id": "travel_footprint",
+    "name": "旅行足迹组件",
+    "summary": "本组件提供了旅行足迹管理的相关功能，支持足迹地图展示、总里程统计、足迹列表浏览、添加新足迹等能力。组"
+  },
+  {
+    "id": "module_wallpaper_details",
+    "name": "壁纸详情组件",
+    "summary": "本组件提供了壁纸详情展示功能，其中包含：作者名称、作者头像、壁纸分类、壁纸关键词、以及收藏、取消收藏"
+  },
+  {
+    "id": "ohos_coap",
+    "name": "coap通信协议组件",
+    "summary": "ohos_coap是基于libcoap，封装napi接口，给上层ts提供coap通信能力的三方库。"
+  },
+  {
+    "id": "abner_scatter",
+    "name": "散点图组件",
+    "summary": "scatter是一个简单的散点图组件，只需要简单的配置，便可以实现一个散点图，支持单一和多样颜色配置"
+  },
+  {
+    "id": "omtree",
+    "name": "支持百万级节点树组件",
+    "summary": "基于 **ArkTS** 实现的高度可配置高性能树组件（百万树节点数据不卡顿），支持： - 懒加载（"
+  },
+  {
+    "id": "ncc_webtabs",
+    "name": "ncc/webtabs web选项卡组件",
+    "summary": "WebTabs 是基于 ArkWeb 和 ArkUI 开发的高性能 Web 选项卡，具有高度可定制性"
+  },
+  {
+    "id": "mysoft_photoselector",
+    "name": "photoselector图片选择器组件",
+    "summary": "图片选择器组件（与微信图片选择器相似度高达98%），高度封装，易于集成，支持图片和视频的选择功能。"
+  },
+  {
+    "id": "ilye_web-bridge-adapter",
+    "name": "WebBridgeAdapter事件分发调用组件",
+    "summary": "一个Web端与鸿蒙应用通信交互的JSBridge事件分发调用适配器，简单易用，能有效解耦鸿蒙应用与J"
+  },
+  {
+    "id": "trs_analytics",
+    "name": "TrsAnalytics系统事件自动记录组件",
+    "summary": "系统事件在应用启动后自动记录。"
+  },
+  {
+    "id": "ohos_photoview",
+    "name": "photoview图片显示组件",
+    "summary": "图片缩放浏览组件，图片可缩放，平移，旋转"
+  },
+  {
+    "id": "hw-agconnect_ui-tag",
+    "name": "标签组件 UITag",
+    "summary": "UITag是基于open harmony基础组件开发的标签组件，用于展示不同类型的标签，点击可切换选"
+  },
+  {
+    "id": "ibestservices_ibest-ui",
+    "name": "ibest-ui组件",
+    "summary": "一个轻量、简单易用、可定制主题、支持深色模式和浅色模式的HarmonyOS开源UI组件库, 包含Bu"
+  },
+  {
+    "id": "dove_md4",
+    "name": "dove/md4加密组件",
+    "summary": "md4，是一个 OpenHarmony/HarmonyOS MD4 加密工具库，支持使用 API10"
+  },
+  {
+    "id": "ryan_eventbus",
+    "name": "EventBus事件总线分发组件",
+    "summary": "事件总线分发，支持组件生命周期自动管理，在ArkTS组件中使用可自动取消订阅，简化跨组件通信。"
+  },
+  {
+    "id": "hadss_dialoghub",
+    "name": "dialoghub弹窗模版组件",
+    "summary": "通用弹窗解决方案，提供与UI解耦的弹窗方式，支持链式API调用、页面级弹窗、自定义弹窗模板，提供丰富"
+  },
+  {
+    "id": "duke_websocket-client",
+    "name": "duke/websocket-client通信协议组件",
+    "summary": "三方源websocket客户端"
+  },
+  {
+    "id": "mlethe_multi-api",
+    "name": "multi api跨平台社交与支付能力集成封装组件",
+    "summary": "华为、支付宝、微信、QQ的 支付、授权登录、分享支持"
+  },
+  {
+    "id": "mlethe_calendar",
+    "name": "Calendar自定义日历视图组件",
+    "summary": "自定义日历视图组件，支持单天、周、多项选择。"
+  },
+  {
+    "id": "mervin_svrefresh",
+    "name": "SVRefresh刷新加载组件",
+    "summary": "SVRefresh 是一款 OpenHarmony 环境下，基于 ArkUI 封装的下拉刷新、上拉加"
+  },
+  {
+    "id": "cxy_refreshlist",
+    "name": "RefreshList-上拉下拉刷新组件",
+    "summary": "简单易用的上拉下拉刷新组件，支持自定义刷新头部和底部，自定义加载中和空页面组件，全局自定义各种组件。"
+  },
+  {
+    "id": "ohos_grpc",
+    "name": "Grpc远程过程调用框架组件",
+    "summary": "ohos_grpc_node是一个高性能的远程过程调用（RPC）框架，旨在简化和优化分布式系统中的服"
+  },
+  {
+    "id": "seagazer_ccplayer",
+    "name": "ccplayer播放组件",
+    "summary": "CcPlayer是一个为OpenHarmony和HarmonyOS Next 设计，支持音视频媒体的"
+  },
+  {
+    "id": "ohos_httpclient",
+    "name": "HttpClient通信协议组件",
+    "summary": "HttpClient是OpenHarmony 里一个高效执行的HTTP客户端，使用它可使您的内容加载"
+  },
+  {
+    "id": "ohos_videocompressor",
+    "name": "videocompressor视频压缩组件",
+    "summary": "videoCompressor是一款ohos高性能视频压缩器。"
+  },
+  {
+    "id": "attraction_live",
+    "name": "景点实况组件",
+    "summary": "本组件提供景区实况情况介绍功能。"
+  },
+  {
+    "id": "teleprompter",
+    "name": "提词器组件",
+    "summary": "本组件提供了提词器（Teleprompter）能力，用于自动滚动显示文本并提供便捷的演讲/录制辅助配"
+  },
+  {
+    "id": "abner_stock",
+    "name": "行情K线图stock组件",
+    "summary": "stock是一个只需要传递简单数据就可以实现行情K线图的组件，支持分时展示，支持日K、月K、年K等指"
+  },
+  {
+    "id": "ohos_high_light_guide",
+    "name": "高亮型新手引导组件",
+    "summary": "基于OpenHarmony的高亮型新手引导组件，通过高亮区域与蒙版背景的明暗度对比，使用户快速锁定重"
+  },
+  {
+    "id": "piaojin_pjtabbar",
+    "name": "PJTabBar标签栏组件",
+    "summary": "PJTabBar是一个用于替换系统Tabs的控件，支持指示器联动，支持回收页面page，支持自定义指"
+  },
+  {
+    "id": "module_person_manage",
+    "name": "常用人管理组件",
+    "summary": "本组件提供了常用人新增、编辑、删除及以常用人单个选择、多个选择的能力。"
+  },
+  {
+    "id": "book_queue",
+    "name": "订座排号组件",
+    "summary": "本模块提供了浏览门店、立即订座、取消订座、立即排号、取消排号、刷新排号、查看订单等相关的能力，可以帮"
+  },
+  {
+    "id": "ablekits_framework",
+    "name": "ablekits/framework开发框架组件",
+    "summary": "ablekits 是一款高效、开箱即用的HarmonyOS框架，提供常用的UI组件和工具类，帮助开发"
+  },
+  {
+    "id": "jackiehou_drawer-scaffold",
+    "name": "DrawerScaffold抽屉组件",
+    "summary": "DrawerScaffold是一个左右侧抽屉类型的组件。"
+  },
+  {
+    "id": "ohos_zxing",
+    "name": "zxing一二维码解析生成组件",
+    "summary": "Zxing是一款解析和生成一维码、二维码的三方组件，用于声明式应用开发，支持多种一维码、二维码的的解"
+  },
+  {
+    "id": "ohos_imageknife",
+    "name": "imageknife图像加载缓存组件",
+    "summary": "专门为OpenHarmony打造的一款图像加载缓存库，致力于更高效、更轻便、更简单"
+  },
+  {
+    "id": "hw-agconnect_ui-side-category",
+    "name": "侧边分类组件 UISideCategory",
+    "summary": "UISideCategory是基于open harmony基础组件开发的组件，支持垂直滑动的一级分类"
+  },
+  {
+    "id": "hw-agconnect_ui-signature",
+    "name": "签名组件 UISignature",
+    "summary": "UISignature是基于open harmony基础组件和Canvas开发的签名组件，支持触屏签"
+  },
+  {
+    "id": "abner_second_floor",
+    "name": "abner/second_floor下滑进入二楼组件",
+    "summary": "second_floor是一个便捷的下滑进入二楼组件，通过简单属性配置即可实现，除此之外，还支持下滑"
+  },
+  {
+    "id": "ccicon",
+    "name": "ccicon组件",
+    "summary": "一个功能强大的 HarmonyOS 图标组件，包含 167 个内置 SVG 图标，支持多种尺寸、颜色"
+  },
+  {
+    "id": "szyx_sdk_base",
+    "name": "sdk base基础开发工具组件",
+    "summary": "基础开发工具包"
+  },
+  {
+    "id": "hadss_debug-db",
+    "name": "debug db数据库调试组件",
+    "summary": "一款极简的数据库可视化调试工具，支持可视化操作RdbStore、KVStore、Preference"
+  },
+  {
+    "id": "ohos_pickerview",
+    "name": "pickerview时间选择器组件",
+    "summary": "时间选择器组件，包括时间（年月日、时分秒、年月日时分秒）选择器、地区选择器、分割线设置、文字大小颜色"
+  },
+  {
+    "id": "message_list",
+    "name": "消息列表组件",
+    "summary": "本组件提供了消息列表组件展示的能力"
+  },
+  {
+    "id": "chat_location",
+    "name": "发送位置组件",
+    "summary": "本组件提供了选择地理位置的功能和查看地理位置的功能。"
+  },
+  {
+    "id": "ohos_banner",
+    "name": "banner图片轮播组件",
+    "summary": "适配OpenHarmony环境的一款banner库，常用于广告图片轮播场景。"
+  },
+  {
+    "id": "abner_pie",
+    "name": "饼状图组件",
+    "summary": "pie是一个简单的饼状图表组件，只为饼状图服务！只需要简单的配置，便可以实现实现一个饼状图，支持内外"
+  },
+  {
+    "id": "yunkss_ef_rcp",
+    "name": "鸿蒙网络请求ef_rcp",
+    "summary": "ef_rcp是eftool的rcp网络请求相关包.提供了rcp的上传,下载,post,get,can"
+  },
+  {
+    "id": "abner_state_view",
+    "name": "缺省页state_view组件",
+    "summary": "state_view是一个简单的缺省页组件，目前支持35种默认缺省样式，可根据属性修改样式，也支持自"
+  },
+  {
+    "id": "module_running",
+    "name": "开始运动组件",
+    "summary": "本组件提供了控制运动进度，展示运动轨迹和数据的功能。"
+  },
+  {
+    "id": "jackiehou_lyric-view",
+    "name": "LrcView歌词组件",
+    "summary": "逐行歌词&逐字歌词组件"
+  },
+  {
+    "id": "mlethe_room",
+    "name": "Room数据库组件",
+    "summary": "持久性库在 SQLite 的基础上提供了一个抽象层，让用户能够在充分利用 SQLite 的强大功能的"
+  },
+  {
+    "id": "hadss_hmrouter-transitions",
+    "name": "Hmrouter高阶转场动效组件",
+    "summary": "基于HMRouter的高阶转场动画库，包含一镜到底等"
+  },
+  {
+    "id": "ohos_eventsource",
+    "name": "eventsource事件驱动框架",
+    "summary": "eventsource三方库是EventSource客户端的纯JavaScript实现。它提供了一种"
+  },
+  {
+    "id": "catering_accommodation",
+    "name": "周边餐饮住宿组件",
+    "summary": "本组件提供景区周边餐饮住宿浏览功能。"
+  },
+  {
+    "id": "hzw_zjson-transform",
+    "name": "zjson transform字符串处理组件",
+    "summary": "ZJsonUtil 是一款专为 JSON 和对象之间的转换设计的工具类，旨在将 JSON 或普通对象"
+  },
+  {
+    "id": "pdp_evaluation",
+    "name": "evaluation口语评测引擎组件",
+    "summary": "口语评测引擎"
+  },
+  {
+    "id": "abner_refresh_v2",
+    "name": "refresh v2装饰器刷新组件",
+    "summary": "refresh v2是一款V2装饰器刷新组件，支持简单，高效的上拉下拉刷新组件，支持列表、网格、瀑布"
+  },
+  {
+    "id": "ohos_videotrimmer",
+    "name": "videotrimmer视频编辑组件",
+    "summary": "在OpenHarmony环境下，提供视频剪辑能力的三方库，常用于视频剪辑."
+  },
+  {
+    "id": "dove_p7zip",
+    "name": "p7zip解压缩组件",
+    "summary": "是一个 OpenHarmony/HarmonyOS 7zip解压缩库，基于 ohos-rs 开发，支"
+  },
+  {
+    "id": "ilye_commons",
+    "name": "ilye/commons通用型开发数据库组件",
+    "summary": "通用组件库，方便为其他库提供通用公共能力。"
+  },
+  {
+    "id": "hw-agconnect_ui-action-menu",
+    "name": "操作菜单 UIActionMenu",
+    "summary": "UIActionMenu是基于open harmony基础组件开发的组件，用于在屏幕底部弹出一个包含"
+  },
+  {
+    "id": "mysoft_archive",
+    "name": "Archive文件解压缩组件",
+    "summary": "本组件是基于libarchive 开发完成，支持常见的 7z, tar, zip, gz, xz 格"
+  },
+  {
+    "id": "ohos_textlayoutbuilder",
+    "name": "TextLayoutBuilder文本样式定制组件",
+    "summary": "一个可定制任意文字字体样式、文字颜色、大小、间距等的文本构建工具、自定义所需风格。"
+  },
+  {
+    "id": "ohos-rs_traceroute",
+    "name": "ohos-rs/traceroute路由追踪工具组件",
+    "summary": "基于 Rust 实现的 OpenHarmony/HarmonyOS简易路由追踪工具"
+  },
+  {
+    "id": "hadss_turbo-trans-core",
+    "name": "hadss/turbo-trans-core通信传输工具组件",
+    "summary": "高性能序列化框架核心库，需配合turbo-trans-json使用"
+  },
+  {
+    "id": "hadss_turbo-trans-json",
+    "name": "hadss/turbo-trans-json通信数据处理组件",
+    "summary": "高性能JSON序列化解决方案，支持复杂类型、大文件解析、JsonNode懒加载，帮助开发者快速实现高"
+  },
+  {
+    "id": "changjing_player",
+    "name": "获得场景播放UI组件",
+    "summary": "需要结合CCVOD使用，可快速实现播放视频功能."
+  },
+  {
+    "id": "sj_mediacache",
+    "name": "mediacache视频缓存组件",
+    "summary": "用于支持音视频边播放边缓存(mp3、mp4、m3u8、mpeg-dash等); 可代理媒体数据请求并"
+  },
+  {
+    "id": "ohos_polka",
+    "name": "Polka网络框架组件",
+    "summary": "Polka是一个极其简洁、高性能的Express.js替代方案。在提供了HTTP服务器功能之外，增加"
+  },
+  {
+    "id": "module_flexlayout",
+    "name": "动态布局组件",
+    "summary": "本组件支持布局描述文件进行页面布局。"
+  },
+  {
+    "id": "shanren_easy_axios",
+    "name": "shanren/easy_axios请求工具组件",
+    "summary": "本模块是对Axios简单封装，使其调用更便利。"
+  },
+  {
+    "id": "ryan_canvas_utils",
+    "name": "CanvasDrawUtils自定义绘制组件",
+    "summary": "CanvasDrawUtils 是一个基于 AtkTs 开发的 Canvas 绘制工具类，采用单例模"
+  },
+  {
+    "id": "q_harmony-utils",
+    "name": "Utils工具包组件",
+    "summary": "该组件封装了弹窗、缓存、定位、文件等多种常用工具，提供一系列简单易用的方法，帮助开发者快速构建鸿蒙应"
+  },
+  {
+    "id": "ohos_danmakuflamemaster",
+    "name": "DanmakuFlameMaster弹幕组件",
+    "summary": "支持发送纯文本弹幕、设置弹幕在屏幕的显示区域、控制弹幕播放状态等功能"
+  },
+  {
+    "id": "hw-agconnect_ui-breadcrumb",
+    "name": "面包屑组件 UIBreadcrumb",
+    "summary": "UIBreadcrumb是基于open harmony基础组件开发的面包屑组件，支持显示当前的页面路"
+  },
+  {
+    "id": "ohos_vap",
+    "name": "vap动效渲染组件",
+    "summary": "腾讯vap的OpenHarmony版本，提供高性能，炫酷视频动画播放"
+  },
+  {
+    "id": "seagazer_ccplayer-ijk",
+    "name": "ccplayer ijk网络媒体基础播放组件",
+    "summary": "网络媒体基础播放组件。"
+  },
+  {
+    "id": "cangjie_cjhybridcomponent",
+    "name": "cangjie/cjhybridcomponent混合渲染组件",
+    "summary": "Provide CJHybridComponent which interop with ArkTS"
+  },
+  {
+    "id": "hadss_adaptive_video",
+    "name": "hadss/adaptive_video上下滑动切换视频组件",
+    "summary": "Adaptive ArkUI support for video scenarios: immers"
+  },
+  {
+    "id": "module_digital_newspaper",
+    "name": "数字报纸组件",
+    "summary": "本组件为数字报纸组件，支持点击新闻区域，支持切换日期、版面、报纸来源等。"
+  },
+  {
+    "id": "ohos-rs_ability",
+    "name": "ability组件",
+    "summary": "This package provides a set of components and APIs"
+  },
+  {
+    "id": "szcuoh_turtlegraphics",
+    "name": "turtlegraphics矢量图形处理",
+    "summary": "一个基于ArkTS的Turtle库，为HarmonyOS提供SVG与个性化绘制，同时为编程教育提供便"
+  },
+  {
+    "id": "ohos_jackrabbit",
+    "name": "ohos/jackrabbit通信协议组件",
+    "summary": "Jackrabbit is a very opinionated abstraction built"
+  },
+  {
+    "id": "countdown",
+    "name": "倒计时组件",
+    "summary": "本组件提供一个轻量级倒计时（Countdown）视图，用于在页面出现时自动开始从指定秒数倒计时，并在"
+  },
+  {
+    "id": "blxt_floatball",
+    "name": "blxt/floatball悬浮球组件",
+    "summary": "一个HarmonyOS悬浮球"
+  },
+  {
+    "id": "ohos_mars",
+    "name": "Mars跨平台网络组件",
+    "summary": "Mars 是一个跨平台的网络组件，包括主要用于网络请求中的长连接，短连接，是基于 socket 层的"
+  },
+  {
+    "id": "hfacedetect",
+    "name": "hfacedetect照片人脸信息获取组件",
+    "summary": "基于InspireFace实现的照片人脸信息获取库。"
+  },
+  {
+    "id": "dove_webdav",
+    "name": "webdav组件",
+    "summary": "webdav，是一个 OpenHarmony/HarmonyOS webdav库，基于 ohos-r"
+  },
+  {
+    "id": "abner_number_box",
+    "name": "数字加减框组件",
+    "summary": "一个简单便捷的数字加减组件，支持步长设置，支持样式动态配置，适用于购物车等数量加减使用场景。"
+  },
+  {
+    "id": "ohos_smithy-types",
+    "name": "TypeScript运行工具组件",
+    "summary": "提供共享的TypeScript类型和运行时工具类型。"
+  },
+  {
+    "id": "ibestservices_ibest-orm",
+    "name": "ibest ORM工具库组件",
+    "summary": "一个全功能 ORM，支持关联、预加载、事务、批量处理数据库。"
+  },
+  {
+    "id": "cangjie-tpc_formula_hybrid",
+    "name": "formula hybrid三方公式混合计算组件",
+    "summary": "formula 主要目的是显示用 LaTeX 编写的数学公式。"
+  },
+  {
+    "id": "taro-oh_library",
+    "name": "taro-oh/library跨端框架组件",
+    "summary": "开放式跨端跨框架解决方案"
+  },
+  {
+    "id": "ohos_lib_file-saver",
+    "name": "ohos_lib/file-saver图片保存组件",
+    "summary": "此开源库为基于 HarmonyOS ArkTS 的应用提供便捷功能，支持将图片一键保存至系统相册和应"
+  },
+  {
+    "id": "csp_floating-button",
+    "name": "csp/floating-button悬浮按钮组件",
+    "summary": "悬浮按钮组件，功能强大，易于使用。支持自动贴边、自动隐藏、拖拽操作、自定义内容等丰富功能。"
+  },
+  {
+    "id": "rich_text_vista",
+    "name": "RichTextVista文本编辑器组件",
+    "summary": "RichTextVista 是一款高性能、可扩展的富文本组件，专为 HarmonyOS 应用设计，支"
+  },
+  {
+    "id": "huanyou_hmutils_simple",
+    "name": "huanyou/hmutils_simple 开发工具组件",
+    "summary": "一个适用于HarmonyOS开发的工具库，提供日志记录、路由、数据持久化和通用常量等基本工具。"
+  },
+  {
+    "id": "hview_avataaars",
+    "name": "hview/avataaars个人头像生成组件",
+    "summary": "Avataaas 生成一个精美的个人头像"
+  },
+  {
+    "id": "don1_pull-to-refresh",
+    "name": "pull to refresh上拉加载下拉刷新组件",
+    "summary": "PullToRefresh是一款基于ArkUI实现的上拉加载、下拉刷新组件。"
+  },
+  {
+    "id": "ibestservices_work_hour_date",
+    "name": "WorkHourDate工时填报组件",
+    "summary": "工时填报组件，与业务数据较为耦合，提供一个思路，可根据业务转换数据或二次开发。"
+  },
+  {
+    "id": "nodemedia_nodemediaclient",
+    "name": "NodePlayer低延迟直播播放组件",
+    "summary": "低延迟直播播放组件。"
+  },
+  {
+    "id": "ohos_yoga",
+    "name": "ohos/yoga布局引擎工具组件",
+    "summary": "Yoga 是一个实现了 Flexbox 的跨平台布局引擎。它能够构建在不同平台和屏幕尺寸上一致工作的"
+  },
+  {
+    "id": "wwy_log",
+    "name": "log快速打印工具组件",
+    "summary": "log一款加快项目开发的打印工具，支持任意类型、格式化快速打印."
+  },
+  {
+    "id": "ohos_roundedimageview",
+    "name": "RoundedImageView图片形状组件",
+    "summary": "RoundedImageView支持许多附加功能，包括椭圆、圆角矩形、ScaleTypes 和 Ti"
+  },
+  {
+    "id": "ohos_socketio_2.x",
+    "name": "socketio 2.x通信协议组件",
+    "summary": "socketio_2.x是基于socket.io-client-cpp 2.x版本封装的一个在客户端"
+  },
+  {
+    "id": "ohos_minizip",
+    "name": "minizip加密解压组件",
+    "summary": "基于minizip_ng的zip加密解压库，支持zip格式的解密解压"
+  },
+  {
+    "id": "elegant-spinner",
+    "name": "elegant-spinner命令行工具组件",
+    "summary": "Elegant spinner for interactive CLI apps"
+  },
+  {
+    "id": "wgw_table",
+    "name": "table表格组件",
+    "summary": "轻量级的表格组件"
+  },
+  {
+    "id": "zyl_wxcommonlibhar",
+    "name": "wxcommonlibhar微信组件",
+    "summary": "wxcommonLibHar是微信封装使用如微信分享，微信登录，微信支付等。"
   }
 ]
