@@ -2158,5 +2158,50 @@
     "id": "zyl_wxcommonlibhar",
     "name": "wxcommonlibhar微信组件",
     "summary": "wxcommonLibHar是微信封装使用如微信分享，微信登录，微信支付等。"
+  },
+  {
+    "id": "common_title_bar",
+    "name": "CommonTitleBar通用标题栏组件",
+    "summary": "通用标题栏，沉浸式状态，正常状态左侧返回、居中标题、右侧更多，左中右均可自定义视图。"
+  },
+  {
+    "id": "ohos_apng",
+    "name": "APNG格式动画组件",
+    "summary": "一款适配OH的APNG格式动画三方应用，调用后OH就可支持APNG格式图片的编解码。"
+  },
+  {
+    "id": "mathml-tag-names",
+    "name": "mathml-tag-names数学公式组件",
+    "summary": "List of known MathML tag names"
+  },
+  {
+    "id": "ark-swipe-deck",
+    "name": "ArkSwipeDeck滑动卡片组件",
+    "summary": "一个ArkTS滑动卡片堆叠容器组件，提供类似Tinder的滑动交互效果，具有流畅的动画和全面的事件回"
+  },
+  {
+    "id": "ohos_opencsv",
+    "name": "ohos/opencsv文件解析组件",
+    "summary": "文件是一个字符序列，可以由任意数目的记录组成，记录间以某种换行符分割。"
+  },
+  {
+    "id": "ohos_multitype",
+    "name": "multitype列表布局组件",
+    "summary": "更轻松、更灵活地为 List 创建多种类型布局,支持设置布局数据源与布局样式"
+  },
+  {
+    "id": "hw-agconnect_ui-scale-view",
+    "name": "可横竖滑动缩放容器 UIScaleView",
+    "summary": "UIScaleView是基于open harmony基础组件开发的可横竖滑动缩放容器组件，支持传入内"
+  },
+  {
+    "id": "ohos_aki",
+    "name": "aki跨语言交互组件",
+    "summary": "AKI (Alpha Kernel Interacting) 是一款边界性编程体验友好的ArkTs "
+  },
+  {
+    "id": "hjm_pdfview",
+    "name": "pdf文件预览组件",
+    "summary": "PDFView是一款高性能预览pdf文件的库"
   }
 ]
